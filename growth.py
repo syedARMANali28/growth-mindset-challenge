@@ -19,11 +19,11 @@ st.markdown(
 )
 
 #title and description 
-st.title("Data Sweeper sterling by Syed Arman Ali")
+st.title("❄️Data Sweeper sterling by Syed Arman Ali")
 st.write("A tool to identify and remove sensitive data from CSV files and tranform your files between CSV and Excell formats.")
 
 #file uploader 
-uploaded_files = st.file_uploader("Upload your files (accepts CSV file or Excell files):", type=["csv","xlsx"], accept_multiple_files=(True))
+uploaded_files = st.file_uploader("Upload your files🎯 (accepts CSV file or Excell files):", type=["csv","xlsx"], accept_multiple_files=(True))
 
 if uploaded_files:
  for file in uploaded_files:
